@@ -1,0 +1,22 @@
+name: flutter_take_photo
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  camera: ^0.10.3+2
+  esys_flutter_share: ^1.0.2
+  flutter:
+    sdk: flutter
+  share_plus: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
